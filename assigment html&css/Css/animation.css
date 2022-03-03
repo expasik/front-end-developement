@@ -1,0 +1,62 @@
+body{
+    background-color:#050210 ;
+}
+#circle {
+  width:300px;
+  height:300px;
+  border-radius:50%;
+  background-image: linear-gradient(90deg, #fb5dad 0%, #55fb9f 25%, #b97aff 100%);
+  margin:0 auto;
+  font-size:100px;
+  text-align:center;
+  color:#fff;
+  position:relative;
+  animation: slidein 2s infinite  ;
+  animation-timing-function: linear;
+  margin-top: 150px;
+  filter: brightness(1.5);
+
+
+  
+  
+    
+ 
+  
+
+}
+  #circle:before{
+    content:"";
+    display:block;
+    position:absolute;
+    width:280px;
+    height:280px;
+    background: #050210;
+    border-radius:50%;
+    top:10px;
+    left:10px;
+    filter: rotate(360deg);
+    
+    
+
+    
+    
+    
+  }
+  
+  @keyframes slidein {
+    from {
+      transform: rotate(0);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+    
+    }
+    
+
+
+  
+
+
+  
