@@ -1,0 +1,47 @@
+
+
+.container{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    font-family: sans-serif;
+
+
+
+}
+img{
+    background-color: rgb(73, 73, 187);
+    width: 100px;
+    padding: 20px;
+    
+}
+.box{
+  margin: 80px;
+  background-color: whitesmoke ;
+  
+  
+  
+}
+
+@media screen and (max-width: 1024px) {
+ .box{
+width: 33.33%;
+}
+}
+ 
+@media screen and (max-width: 768px) {
+ .box{
+width: 50%;
+}
+}
+ 
+@media screen and (max-width: 414px) {
+.box{
+width: 100%
+
+}
+}
